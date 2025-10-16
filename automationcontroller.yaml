@@ -19,4 +19,3 @@ spec:
   replicas: 1
   admin_user: admin
   loadbalancer_protocol: http
-  nodeport_port: 3008
