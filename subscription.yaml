@@ -5,7 +5,8 @@ metadata:
   name: ansible-automation-platform
   namespace: ansible-automation-platform
   annotations:
-    argocd.argoproj.io/sync-wave: "3"  
+    argocd.argoproj.io/sync-wave: "3"
+    argocd.argoproj.io/sync-options: SkipDryRunOnMissingResource=true
 spec:
   channel: 'stable-2.6'
   installPlanApproval: Automatic
