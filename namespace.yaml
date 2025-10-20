@@ -1,10 +1,7 @@
 ---
-### This not being pull from Argo as of right now, and it needs to be created first.
 apiVersion: v1
 kind: Namespace
 metadata:
-  # labels:
-  #   openshift.io/cluster-monitoring: "true"
   name: ansible-automation-platform
   annotations:
     argocd.argoproj.io/sync-wave: "1"
